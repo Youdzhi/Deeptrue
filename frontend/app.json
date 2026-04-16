@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "DeepTrue",
+    "slug": "deeptrue",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1a1a1a"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.deeptrue.app"
+    },
+    "android": {
+      "package": "com.deeptrue.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b7280e89-cb2d-4f8e-8599-83d455d5b3b5"
+      }
+    },
+    "owner": "youdzhi"
+  }
+}
